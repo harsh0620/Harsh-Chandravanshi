@@ -1,0 +1,47 @@
+#main {
+  background-color: tomato;
+  display: block;
+}
+#title {
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 50px;
+}
+.down {
+  text-align: center;
+}
+#img-div {
+  background-color: white;
+  margin: 0;
+}
+#image {
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+@media screen and (min-width: 480px) {
+  #image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+#img-caption {
+  margin: 10px;
+  font-family: monospace;
+  text-align: center;
+  font-size: 20px;
+}
+#tribute-info {
+  display: block;
+  list-style-type: disc;
+  align-content: center;
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 2.5;
+}
+#tribute-info h3 {
+  text-align: center;
+}
